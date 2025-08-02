@@ -1,4 +1,4 @@
-FROM fedora:41 AS build
+FROM docker.io/fedora:42 AS build
 
 RUN dnf update -y
 RUN dnf group install -y development-tools
